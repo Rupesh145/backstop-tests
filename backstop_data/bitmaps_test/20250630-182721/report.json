@@ -1,0 +1,58 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Andanet_QA_Login_Page_0_document_0_phone.png",
+        "test": "../bitmaps_test/20250630-182721/backstop_default_Andanet_QA_Login_Page_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Andanet_QA_Login_Page_0_document_0_phone.png",
+        "label": "Andanet QA Login Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://qa.andanet.com/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.002752787197037,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 38
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Andanet_QA_Login_Page_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20250630-182721/backstop_default_Andanet_QA_Login_Page_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Andanet_QA_Login_Page_0_document_1_tablet.png",
+        "label": "Andanet QA Login Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://qa.andanet.com/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.0025320418385385976,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 44
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+}

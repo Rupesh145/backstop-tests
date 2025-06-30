@@ -1,0 +1,58 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Andanet_QA_-_Login_Page_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250630-183710/backstop_default_Andanet_QA_-_Login_Page_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "backstop_default_Andanet_QA_-_Login_Page_0_document_0_desktop.png",
+        "label": "Andanet QA - Login Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://qa.andanet.com/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 15,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 40.19588313413014,
+          "misMatchPercentage": "40.20",
+          "analysisTime": 156
+        },
+        "diffImage": "../bitmaps_test/20250630-183710/failed_diff_backstop_default_Andanet_QA_-_Login_Page_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Andanet_QA_-_Post_Login_Dashboard_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20250630-183710/backstop_default_Andanet_QA_-_Post_Login_Dashboard_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "backstop_default_Andanet_QA_-_Post_Login_Dashboard_0_document_0_desktop.png",
+        "label": "Andanet QA - Post Login Dashboard",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://qa.andanet.com/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -15,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 28.246767994409506,
+          "misMatchPercentage": "28.25",
+          "analysisTime": 78
+        },
+        "diffImage": "../bitmaps_test/20250630-183710/failed_diff_backstop_default_Andanet_QA_-_Post_Login_Dashboard_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}
